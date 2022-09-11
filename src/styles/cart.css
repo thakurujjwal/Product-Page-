@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cartHeading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+article  {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* width: 60%; */
+  /* margin: auto; */
+}
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 3px;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span {
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top:2rem;
+  /* justify-content: space-evenly; */
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(202, 202, 202);
+  /* align-items: center; */
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.totalheading {
+  font-size: 2rem;
+  color: rgb(255, 27, 27);
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.totalnav {
+  /* font-size: 2rem; */
+  display: flex;
+  justify-content: space-between;
+  color: rgb(244, 217, 66);
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.cartkart{
+  width: fit-content;
+}
+.cartprice{
+  padding: 20px;
+}
+
+.cartHeading div{
+  width: 100px;
+}
+.cartkart div ,.cartkart span , .cartkart p{
+  width: 100px;
+  overflow: hidden;
+}
+
+.total_button{
+  margin: 10px;
+  padding: 15px 10px;
+  border-radius: 50px;
+}
+
+.cart_header{
+  /* border: 2px solid forestgreen; */
+  width: 800px;
+  height: auto;
+  padding: 10px;
+ 
+}
+  
+th {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 100px;
+
+}
+  
+td {
+  text-align: center;
+  width: 100px;
+justify-self: center;
+}
+
+.cart_title{
+  width: 100px;
+}
